@@ -1,0 +1,30 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
+#include <ctype.h>
+
+
+
+
+void meow(int n); //把后续的函数提到前面说明
+//后面会有一个函数叫 meow 它接收一个 int，不返回任何值
+
+int main (void)
+{
+    meow(5);
+}
+ 
+
+void meow(int n)
+{
+    for (int i = 2; i < n; i++)
+    {
+        printf("meow\n");
+    }
+}
+
+//
+
+
