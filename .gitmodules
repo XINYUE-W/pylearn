@@ -1,0 +1,3 @@
+[submodule "CS50x"]
+	path = CS50x
+	url = https://github.com/XINYUE-W/CS50x.git
